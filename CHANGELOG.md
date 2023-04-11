@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [9.0.0](https://github.com/terraform-google-modules/terraform-google-lb-http/compare/v8.0.0...v9.0.0) (2023-04-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **TPG >= 4.50:** Adding edge_security_policy ([#311](https://github.com/terraform-google-modules/terraform-google-lb-http/issues/311))
+
+### Features
+
+* **TPG >= 4.50:** Adding edge_security_policy ([#311](https://github.com/terraform-google-modules/terraform-google-lb-http/issues/311)) ([f769bf7](https://github.com/terraform-google-modules/terraform-google-lb-http/commit/f769bf741aa85db3f842b6649997b5cb4738e478))
+
+
+### Bug Fixes
+
+* fix description of var load_balancing_scheme ([#314](https://github.com/terraform-google-modules/terraform-google-lb-http/issues/314)) ([5655ad9](https://github.com/terraform-google-modules/terraform-google-lb-http/commit/5655ad9b483fd0f31d17c0eaebbed76a2920e69d))
+
 ## [8.0.0](https://github.com/terraform-google-modules/terraform-google-lb-http/compare/v7.0.0...v8.0.0) (2023-03-31)
 
 
