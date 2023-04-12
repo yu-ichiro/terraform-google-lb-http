@@ -120,7 +120,7 @@ locals {
 # [START cloudloadbalancing_ext_http_gce_plus_bucket]
 module "gce-lb-https" {
   source  = "GoogleCloudPlatform/lb-http/google"
-  version = "~> 6.0"
+  version = "~> 7.0"
   name    = var.network_name
   project = var.project
   target_tags = [

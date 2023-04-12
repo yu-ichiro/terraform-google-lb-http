@@ -70,7 +70,7 @@ module "cloud-nat-group2" {
 # [START cloudloadbalancing_ext_http_gce]
 module "gce-lb-http" {
   source  = "GoogleCloudPlatform/lb-http/google"
-  version = "~> 6.0"
+  version = "~> 7.0"
   name    = var.network_prefix
   project = var.project
   target_tags = [
